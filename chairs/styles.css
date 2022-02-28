@@ -1,0 +1,178 @@
+body {font-family: 'Roboto', sans-serif;}
+.container {max-width: 1110px; margin: 0 auto;}
+ul {list-style-type: none;}
+a {text-decoration: none; color: black;}
+
+
+/*--------------------------------------------------------------------------*/
+
+header {background-color: #EFEFEF;}
+
+.head_menu {font-size: 15px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    height: 60px; 
+    align-items: center;
+    display: flex;}
+
+/*--------------------------------------------------------------------------*/
+
+.wrapper1 {display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;}
+
+.logotype {display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 14%;
+}
+
+.tel1 {margin: 0px 40px 0px 93px;}
+
+h1 {color: #F13C6E; 
+    margin-left: 5px; 
+    letter-spacing: 10%;
+}
+
+.input1 {border-radius: 40px;
+        background-color: #EFEFEF;
+        padding: 5px;}
+
+.btn1 {background: none;
+border: 2px solid #F13C6E;
+border-radius: 40px;
+padding: 5px 8px;}
+
+
+/*--------------------------------------------------------------------------*/
+
+.hr2 {width: 100%;}
+
+.nav2 {display: flex; justify-content: center;}
+.ul2 {display: flex;
+flex-direction: row;}
+
+.ul2 li {margin-right: 20px;}
+
+/*--------------------------------------------------------------------------*/
+
+
+.section3 {background-image: url(/верстка/Rectangle\ 2.png); width: 100%; height: 600px; object-fit: cover;
+background-repeat: no-repeat; background-position: center; color: white; }
+
+.items3 {width: 40%; padding-top: 10%;}
+
+h2 {font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;}
+
+.p3 {font-size: 14px;
+    font-style: normal;
+    font-weight: 400;}
+
+#btn3 {width: 120px; background: none; border: 2px solid #ffffff;
+    border-radius: 40px; 
+    padding: 7px 10px; margin: 17px 0px;}
+.wh {color: white;}
+
+
+@media screen and (max-width: 1200px) {
+    .items3 {margin-left: 30px;}
+    .section3 {background-color: #F13C6E; background-image: none;}
+    .logotype {margin-left: 1%;}
+    .tel1 {margin: 0px 12px;}}
+
+@media screen and (max-width: 750px) {
+    .input1 {display: none;}
+    .section2 {display: none;}
+    .logotype {margin-right: 1%;}
+    .items3 {margin: 0 auto; width: 80%;}
+    .section3 {height: 360px;}
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+.section4 {background-color: #EFEFEF ;}
+
+.card1 {display: flex; flex-direction: column; align-items: center; background-color: white; }
+
+.p4 {text-align: center;}
+
+.boldp {Font-size: 21px; font-weight: 700;
+    Line-height: 24.61px;
+    Letter-spacing: 5%;}
+
+.btn4 {background-color: #F13C6E ; 
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    padding: 7px 16px;
+}
+.img4 {padding-top: 10px;}
+
+#cards4 { padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 20px; 
+}
+
+/*--------------------------------------------------------------------------*/
+
+.section5 {color: white; background-color: #EFEFEF;}
+
+.cards5 {display: flex; flex-direction: row; justify-content:space-evenly; padding-top: 60px; }
+
+.card5_1 {display: flex; flex-direction: row; justify-content: space-between; width: 46%; background-color: #F13C6E;}
+
+.p5 {font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;}
+
+h5 {font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;}
+
+
+.svg5 {padding: 60px 40px 60px 80px;}
+
+.items1 {padding: 40px 0px 40px 35px;}
+
+.btn5 {background-color: #F13C6E ; 
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    padding: 7px 16px;}
+
+
+
+.input5 {border-radius: 40px; border: none;
+        background-color: white;
+        padding: 5px;}
+
+
+
+@media screen and (max-width: 1080px) {
+            .cards5 {flex-direction: column;}
+            .card5_1 {width: 90%; margin: 0 auto;}
+        }
+
+
+@media screen and (max-width: 500px) {
+            .svg5 {display: none;}
+        }
+
+
+/*--------------------------------------------------------------------------*/
+
+
